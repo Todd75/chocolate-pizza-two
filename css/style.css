@@ -1,0 +1,178 @@
+body {
+  width: 900px;
+}
+
+#forkK {
+  width: 140px;
+}
+
+i {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#delicious {
+  font-family: 'Yellowtail', cursive;
+  font-style: italic;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#subtitleDelicious {
+  font-family: arial;
+  padding: .4rem;
+}
+
+h1 {
+  font-family: 'League Gothic', sans-serif;
+  display: inline-block;
+  margin: 0 0;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#lineDrawing {
+  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d91/main/class-10/lab-a/lab-assets/hr-img.png);
+  background-repeat: repeat;
+  /* background-size: 0.25rem; */
+  height: 0.75rem;
+  margin-bottom: 4rem;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+}
+
+#title p {
+  margin: 0%;
+}
+
+
+
+#pint {
+  padding-right: 0.25em;
+}
+
+#icons {
+  float: right;
+  width: 45%;
+  margin-right: 0%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+#main2 p {
+  margin: 0%;
+}
+
+#main3 p {
+  text-indent: 2em;
+  font-size: 20px;
+}
+
+#ingredients {
+  background-image: url(/img/list-bg.png);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#lineout {
+  text-decoration: line-through;
+}
+
+#author {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#authorBox p {
+  border: 1px solid santafe;
+  background-color: RGB(177, 109, 82);
+
+  padding: 0.75em;
+}
+
+#authorBox a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#authorText {
+  margin: 0%;
+  display: inline-block;
+  width: 500px;
+}
+
+#authorText h3 {
+  margin-top: 0%;
+  margin-bottom: 0.5em;
+}
+
+#authorText p {
+  margin: 0%;
+}
+
+footer p {
+  margin: auto;
+  text-align: center;
+}
+
+.line {
+  width: 900px;
+  height: 20px;
+  position: relative;
+}
+
+.line::after,
+.line::before {
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: darkgrey;
+  width: 45%;
+  top: 45%;
+}
+
+.line::after {
+  left: 0;
+}
+
+.line::before {
+  right: 0;
+}
+
+.circle {
+  text-align: center;
+}
+
+.pushDiv {
+  height: 40px;
+}
+
+#printerImage {
+  padding-right: 1px;
+  margin-top: 20px;
+  width: 14px;
+  height: 12px;
+  float: right;
+}
+
+#ptagPrint {
+  float: right;
+  font-weight: lighter;
+}
